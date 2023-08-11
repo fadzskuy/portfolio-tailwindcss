@@ -62,7 +62,7 @@ window.onload = function () {
   };
 
 function downloadImage(){
-    var url = 'dist/img/download.png';
+    var url = 'dist/img/CV.png';
     var a = document.createElement('a');
     a.href = url;
     a.download = 'cv-fadhli.png';
@@ -70,3 +70,15 @@ function downloadImage(){
     a.click();
     document.body.removeChild(a);
 };
+
+// kirim email dengan email js
+function SendMail() {
+    var params = {
+        name : document.getElementById("name").value,
+        email : document.getElementById("email").value,
+        message : document.getElementById("message").value,
+    }
+    emailjs.Send("service_xu6u0cc", "template_056u2go", params).then(function (res) {
+        alert("Success!" + res.status);
+    })
+}
