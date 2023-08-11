@@ -820,6 +820,10 @@ video {
   max-width: 36rem;
 }
 
+.max-w-\[110px\] {
+  max-width: 110px;
+}
+
 .origin-bottom-left {
   transform-origin: bottom left;
 }
@@ -986,6 +990,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-purple {
+  --tw-bg-opacity: 1;
+  background-color: rgb(170 119 255 / var(--tw-bg-opacity));
 }
 
 .fill-current {
@@ -1187,6 +1196,21 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.blur-md {
+  --tw-blur: blur(12px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.blur {
+  --tw-blur: blur(8px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.blur-0 {
+  --tw-blur: blur(0);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .grayscale {
   --tw-grayscale: grayscale(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -1271,6 +1295,50 @@ body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:w-10:hover {
+  width: 2.5rem;
+}
+
+.hover\:w-\[110px\]:hover {
+  width: 110px;
+}
+
+.hover\:w-\[150px\]:hover {
+  width: 150px;
+}
+
+.hover\:w-\[200px\]:hover {
+  width: 200px;
+}
+
+.hover\:w-\[210px\]:hover {
+  width: 210px;
+}
+
+.hover\:w-\[165px\]:hover {
+  width: 165px;
+}
+
+.hover\:w-\[120px\]:hover {
+  width: 120px;
+}
+
+.hover\:w-\[130px\]:hover {
+  width: 130px;
+}
+
+.hover\:w-\[140px\]:hover {
+  width: 140px;
+}
+
+.hover\:w-\[10px\]:hover {
+  width: 10px;
+}
+
+.hover\:w-\[100px\]:hover {
+  width: 100px;
+}
+
 @keyframes pulse {
   50% {
     opacity: .5;
@@ -1289,6 +1357,11 @@ body {
 .hover\:bg-primary:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(98 205 255 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-purple:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(170 119 255 / var(--tw-bg-opacity));
 }
 
 .hover\:text-dark:hover {
